@@ -1,30 +1,71 @@
-# React + TypeScript + Vite
+# ☕ | Job Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao repositório que contém a estrutura de um projeto baseado em uma aplicação de procura de empregos relacionados à tecnologia.
 
-Currently, two official plugins are available:
+O objetivo desse projeto é estudar as ferramentas e tecnologias de desenvolvimento web mais utilizadas no mercado atualmente, sendo, neste caso, o [TailwindCSS](https://tailwindcss.com/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ **É importante ressaltar que este projeto/repositório se encontra em constante atualização.**
 
-## Expanding the ESLint configuration
+Happy hacking!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧠 Contexto
 
-- Configure the top-level `parserOptions` property like this:
+![Protótipo](./.github/readme-image.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+O projeto consiste em criar uma interface de procura de empregos relacionados às áreas da tecnologia, na qual foram utilizadas as seguintes ferramentas/tecnologias:
+
+- [x] [Vite](https://vitejs.dev/)
+- [x] [TypeScript](https://www.typescriptlang.org/)
+- [x] [TailwindCSS](https://tailwindcss.com/)
+
+## 🤝 Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/galembeck" title="Pedro Galembeck">
+        <img src="https://avatars.githubusercontent.com/u/51977156?v=4" width="100px;" alt="Avatar de Pedro Galembeck (Github)"/><br>
+        <sub>
+          <b>Pedro Galembeck</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📋 Instruções
+
+Para visualizar o projeto acima, basta seguir as instruções abaixo.
+
+- Utilize o [deploy](https://galembeck-job-search.vercel.app/) na vercel para abrir o link de visualização.
+  > https://galembeck-job-search.vercel.app/
+
+## 🖥️ Instalação
+
+### Job Search
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/galembeck/job-search-app.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Abra a pasta do projeto (_job-search-app_):
+
+```bash
+cd job-search-app
+```
+
+3. Instale as dependências utilizadas:
+
+```bash
+npm install
+```
+
+3. Inicie o projeto:
+
+```bash
+npm run dev
+```
+
+Made with 💜 by Pedro Galembeck.
