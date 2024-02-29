@@ -1,4 +1,5 @@
 import { CompanyValues } from "./components/company-values";
+import { Footer } from "./components/footer";
 import { JobsShowcase } from "./components/jobs-showcase";
 import { Navbar } from "./components/navbar";
 import { SearchBar } from "./components/search-bar";
@@ -10,6 +11,7 @@ export function App() {
       <SearchBar />
       <JobsShowcase />
       <CompanyValues />
+      <Footer />
     </div>
   )
 }
