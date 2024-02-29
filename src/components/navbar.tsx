@@ -2,7 +2,7 @@ export function Navbar() {
   return (
     <div className="flex justify-between items-center p-[3rem]">
       <div>
-        <h1 className="text=[25px] text-blue-color">
+        <h1 className="text-[25px] text-blue-color">
           <strong>Job</strong>Search
         </h1>
       </div>
